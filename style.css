@@ -1,0 +1,31 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    color: #17a2b8;
+}
+p{
+    color:#fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.loginNavBar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.signLink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

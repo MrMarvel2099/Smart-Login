@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg loginNavBar d-none">
+        <div class="container">
+            <a class="navbar-brand" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <button id="signOut" class="btn btn-outline-warning">Sign Out</button>
+        </div>
+    </nav>
+    <div class="box container w-50 my-5 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="pt-5">Smart Login System</h1>
+        <input class="text-white form-control w-75 m-2 bg-transparent d-none" type="text" id="name" placeholder="Enter your name">
+        <input class="text-white form-control w-75 m-2 bg-transparent" type="email" id="email" placeholder="Enter your email">
+        <input class="text-white form-control w-75 m-2 bg-transparent" type="password" id="password" placeholder="Enter your password">
+        <p id="note" class="d-none text-danger m-3">...</p>
+        <button id="login" class="btn w-75 m-4 btn-outline-info">Login</button>
+        <p id="signUp" class="mb-5">Don't have an account? <span class="signLink">Sign Up</span></p>
+        <p id="signIn" class="d-none mb-5">Don't have an account? <span class="signLink">Sign In</span></p>
+    </div>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
